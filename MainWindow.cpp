@@ -1,20 +1,24 @@
 // MainWindow object.
 
-#ifndef MAINWINDOW_H
+#include <SFML/Window.h>
+#include <SFML/Graphics.h>
+
+#ifndef
 #define MAINWINDOW_H
 
+#endif
 
 class MainWindow
 {
     public:
     MainWindow()
     {
-    cout << "MainWindow constructor" << endl;
+        cout << "MainWindow constructor" << endl;
     }
 
     ~MainWindow()
     {
-    cout << "MainWindow deconstructor" << endl;
+        cout << "MainWindow deconstructor" << endl;
     }
 
 };
