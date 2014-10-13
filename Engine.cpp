@@ -3,12 +3,12 @@
 #include <iostream>
 
 // Local libs
-#include "MainWindow.h"
+#include "MainWindow.cpp"
 
 using namespace std;
 
 int main()
 {
-    mw = MainWindow(); 
+    MainWindow mw; 
     return 0;
 }
